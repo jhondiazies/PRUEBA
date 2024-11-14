@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Apoyo Voluntario para la Mejora de Ética y Valores</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f9;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+        .form-container {
+            background-color: white;
+            padding: 30px;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            width: 450px;
+            text-align: center;
+        }
+        h1 {
+            color: #333;
+            font-size: 28px;
+            margin-bottom: 20px;
+            font-weight: bold;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+        p {
+            color: #777;
+            font-size: 16px;
+        }
+        label {
+            font-size: 16px;
+            margin-bottom: 8px;
+            display: block;
+            color: #555;
+        }
+        input, textarea {
+            width: 100%;
+            padding: 12px;
+            margin-bottom: 20px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            box-sizing: border-box;
+        }
+        input[type="submit"] {
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            cursor: pointer;
+            font-size: 16px;
+            font-weight: bold;
+            text-transform: uppercase;
+        }
+        input[type="submit"]:hover {
+            background-color: #45a049;
+        }
+        .form-footer {
+            margin-top: 20px;
+            font-size: 14px;
+            color: #888;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="form-container">
+        <h1>Apoyo Voluntario para la Mejora de Ética y Valores</h1>
+        <p>Contribuye a nuestra misión de promover valores éticos y fortalecer el compromiso en nuestra comunidad.</p>
+
+        <form action="gracias.html" method="POST">
+            
+            <label for="nombre">Nombre Completo:</label>
+            <input type="text" id="nombre" name="nombre" required placeholder="Ingresa tu nombre completo"><br>
+
+            
+            <label for="dni">DNI:</label>
+            <input type="text" id="dni" name="dni" required placeholder="Ingresa tu DNI"><br>
+
+           
+            <label for="codigo_estudiante">Código de Estudiante:</label>
+            <input type="text" id="codigo_estudiante" name="codigo_estudiante" required placeholder="Ingresa tu código de estudiante"><br>
+
+            
+            <label for="comentarios">Comentarios:</label>
+            <textarea id="comentarios" name="comentarios" rows="4" placeholder="Opcional, agrega tus comentarios"></textarea><br>
+
+            
+            <input type="submit" value="Enviar Inscripción">
+        </form>
+
+        <div class="form-footer">
+            <p>Gracias por inscribirte en nuestro programa de apoyo.</p>
+        </div>
+    </div>
+
+</body>
+</html>
